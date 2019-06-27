@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.Registration">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="15dp"
+            android:text="SIGN UP PAGE"
+            android:textColor="#EE260E"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="please enter your personal details below to proceed"
+            android:textSize="14sp"
+            android:layout_marginLeft="35dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="35dp"
+            android:text="Personal Details"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp">
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="#5E090707"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp">
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="#5E090707"
+                android:textSize="20sp" />
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="28dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:hint="First Name"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:hint="Last Name"
+                android:inputType="text"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/textpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/cpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+        <CheckBox
+            android:id="@+id/cheekbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="I agree to terms and conditions"
+            android:textColor="#5E090707"
+            android:textSize="15sp" />
+
+    <Button
+        android:text="SIGN UP"
+        android:id="@+id/signupPage"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="#EE260E"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#E0D3D1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+    </LinearLayout>
+</ScrollView>

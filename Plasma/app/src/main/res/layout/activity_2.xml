@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAFFFFFF"
+    tools:context=".test.Activity2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="193dp"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/omns" />
+
+            <EditText
+                android:id="@+id/editTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:layout_marginLeft="50dp"
+                android:textColorHint="#E49696"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="50dp"
+                android:background="#FCBFBF"/>
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="Password"
+                android:textSize="18sp"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:layout_marginLeft="50dp"
+                android:textColorHint="#E49696" />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="50dp"
+                android:background="#FCBFBF"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Remember me?"
+                android:textColor="#5E090707"
+                android:textSize="15sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="#485E4F4F"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="LOG IN"
+                android:textAllCaps="false"
+                android:textColor="#FCFCFC"
+                android:textColorHint="#00ECECEC"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Body1"/>
+
+            <Button
+                android:text="SIGN UP"
+                android:id="@+id/signup"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="#EE260E"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#E0D3D1"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Body1"/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:textAllCaps="false"
+                android:padding="5dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="20dp"
+                android:text="Forgot Password?"
+                android:textColor="#5E090707"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+</LinearLayout>

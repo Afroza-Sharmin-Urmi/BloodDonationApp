@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/osa">
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:text="Donate Blood Save Life"
+        android:textSize="55sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="35sp"
+        android:text="Get started!"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:clickable="true"/>
+
+
+</LinearLayout>
