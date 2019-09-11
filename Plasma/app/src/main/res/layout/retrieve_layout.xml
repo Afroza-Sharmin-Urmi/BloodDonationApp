@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nameTextID"
+        android:text="Name: Afroza sharmin urmi"
+        android:textAppearance="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/blood_groupTextID"
+        android:text="Blood Group: O+"
+        android:textAppearance="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/genderTextID"
+        android:text="Gender: Female"
+        android:textAppearance="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/numberTextID"
+        android:text="Number: 01976141393"
+        android:textAppearance="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/emailTextID"
+        android:text="Email: afrozasharminurmi@gmail.com"
+        android:textAppearance="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/addressTextID"
+        android:text="Address: Cumilla"
+        android:textAppearance="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
