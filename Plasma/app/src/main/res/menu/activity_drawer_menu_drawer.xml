@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/nav_profile" />
+        <item
+            android:id="@+id/nav_donor"
+            android:icon="@drawable/ic_donor_list"
+            android:title="@string/nav_donor" />
+        <item
+            android:id="@+id/nav_new_profile"
+            android:icon="@drawable/ic_new_profile"
+            android:title="@string/nav_setting" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/nav_share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about_app"
+                android:title="@string/nav_about" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/nav_feedback" />
+        </menu>
+    </item>
+
+</menu>
